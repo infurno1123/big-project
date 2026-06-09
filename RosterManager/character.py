@@ -1,0 +1,1 @@
+#This defines the character "class", compiling all the information of said character.

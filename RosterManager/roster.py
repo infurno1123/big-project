@@ -1,0 +1,1 @@
+#This is responsible for managing the collection of characters.
