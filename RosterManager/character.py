@@ -54,8 +54,3 @@ class Character:
         else:
             self.level += 1
             print(f"{self.name} has leveled up to {self.level}!")
-
-welt = Character("Welt", "HSR", 80, 5, "Imaginary", "Delay Specialist")
-
-welt.level_up()
-print(welt.display())
