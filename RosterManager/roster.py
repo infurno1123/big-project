@@ -24,6 +24,18 @@ class Roster:
         for char in self.characters:
             all_characters += f"{char.display()}"
         return(all_characters)
+    
+# Function should get a name input/variable
+# Code should compare variable with every value/string in all_characters
+#if there is a match, then that should be the return value
+#It's purpose is to simply find the character, nothing more nothing less.
+
+    def find_character(self, name):
+        for char in self.characters:
+            if name == char.name:
+                return(char)
+        else:
+            return(f"Error {name} does not exist within this roster.")
 
 #Notation practice below
 #welt = Character("Welt", "HSR", 80, 5, "Imaginary", "Delay Specialist")
